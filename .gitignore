@@ -1,0 +1,17 @@
+# Android
+bin/
+gen/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+
+# Config
+res/values-v1/
+
+# Other
+.DS_Store

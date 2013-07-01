@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <Preference android:key="auth"
+        android:title="@string/pref_auth_title">
+        <intent
+             android:action="android.intent.action.VIEW"
+             android:targetPackage="com.jasonphanley.dashbit"
+             android:targetClass="com.jasonphanley.dashbit.app.AuthActivity"/>
+    </Preference>
+    
+    <ListPreference android:key="status_type"
+        android:title="@string/pref_status_type_title"
+        android:defaultValue="steps"
+        android:entries="@array/pref_status_type_entries"
+        android:entryValues="@array/pref_status_type_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"/>
+    
+</PreferenceScreen>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <string name="app_name">DashBit</string>
+    
+    <string name="dashclock_label">DashBit</string>
+    <string name="dashclock_description">Displays your activity tracker data, including steps, floors, distance, and calories. Syncs with your Fitbit&#174;.</string>
+    <string name="dashclock_status_none" translatable="false">––</string>
+    <string name="dashclock_expanded_title">%s today</string>
+    <string name="dashclock_expanded_body" translatable="false">%1$s, %2$s, %3$s</string>
+    <string name="dashclock_expanded_body_no_floors" translatable="false" tools:ignore="StringFormatCount">%2$s, %3$s</string>
+    <string name="dashclock_expanded_body_error">No fitbit data available</string>
+    
+    <plurals name="dashclock_steps">
+        <item quantity="one">1 step</item>
+        <item quantity="other">%d steps</item>
+    </plurals>
+    <plurals name="dashclock_floors">
+        <item quantity="one">1 floor</item>
+        <item quantity="other">%d floors</item>
+    </plurals>
+    <plurals name="dashclock_distance_miles">
+        <item quantity="one">%s mile</item>
+        <item quantity="other">%s miles</item>
+    </plurals>
+    <plurals name="dashclock_distance_kilometers">
+        <item quantity="one">%s kilometer</item>
+        <item quantity="other">%s kilometers</item>
+    </plurals>
+    <plurals name="dashclock_calories">
+        <item quantity="one">1 calorie</item>
+        <item quantity="other">%d calories</item>
+    </plurals>
+    
+    <string name="activity_settings_label">DashBit Extension Settings</string>
+    
+    <string name="pref_auth_title">Sign in with Fitbit</string>
+    
+    <string name="pref_status_type_title">Show data for activity</string>
+    <string-array name="pref_status_type_entries">
+        <item>Steps</item>
+        <item>Floors</item>
+        <item>Distance</item>
+        <item>Calories</item>
+    </string-array>
+    <string-array name="pref_status_type_values">
+        <item>steps</item>
+        <item>floors</item>
+        <item>distance</item>
+        <item>calories</item>
+    </string-array>
+    
+    <string name="auth_error">Unable to sign in</string>
+    
+    <string name="auth_loading">Loading&#8230;</string>
+    
+</resources>
