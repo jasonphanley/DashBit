@@ -7,7 +7,7 @@ floors, distance, and calories. Syncs with your [Fitbit][2]&reg; account.
 
 ### [**Install on Google Play**][3]
 
-Requires Android 4.2 or later and [DashClock Widget][4] by Roman Nurik to use.
+Requires Android 4.2+ and [DashClock Widget][4] by Roman Nurik to use.
 
 Developed By
 ------------
