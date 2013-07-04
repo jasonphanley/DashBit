@@ -2,8 +2,9 @@ DashBit
 =======
 
 DashBit is an extension for [DashClock][1] that lets you add your activity
-tracker data to your lock screen. Easily see your fitness data including steps,
-floors, distance, and calories. Syncs with your [Fitbit][2]&reg; account.
+tracker data to your Android lock screen. Easily see your fitness data
+including steps, floors, distance, and calories. Syncs with your
+[Fitbit][2]&reg; account.
 
 ### [![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_60.png)][3]
 
